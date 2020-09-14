@@ -22,7 +22,7 @@ namespace InventrySite
         protected void btn_insert_Click(object sender, EventArgs e)
         {
             string FN = "";
-            FN = DateTime.Now.Ticks.ToString()+Path.GetFileName(img.PostedFile.FileName);
+            FN = DateTime.Now.Ticks.ToString() + Path.GetFileName(img.PostedFile.FileName);
             img.SaveAs(Server.MapPath("Image_User" + "//" + FN));
 
             con.Open();

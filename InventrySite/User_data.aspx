@@ -5,7 +5,7 @@
     <table>
         <tr>
             <td>Image :</td>
-            <td><asp:FileUpload ID="img" runat="server" /></td>
+            <td><asp:FileUpload ID="img" runat="server"/></td>
         </tr>
         <tr>
             <td>Name :</td>
